@@ -118,6 +118,8 @@ public class GuestbookServiceImpl implements GuestbookService{
         booleanBuilder.and(conditionBuilder);
 
         return booleanBuilder;
+
+
     }
 
 

@@ -7,4 +7,5 @@ import org.zerock.guestbook.entity.Guestbook;
 public interface GuestbookRepository
         extends JpaRepository<Guestbook, Long> , QuerydslPredicateExecutor<Guestbook> {
 
+
 }
